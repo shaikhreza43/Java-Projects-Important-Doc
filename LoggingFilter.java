@@ -18,6 +18,8 @@ import javax.ws.rs.ext.Provider;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 
+// This is a Centralized Logging Filter class which will work in Java Quarkus projects
+
 @Provider
 @Slf4j
 public class LoggingFilter
