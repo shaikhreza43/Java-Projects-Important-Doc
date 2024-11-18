@@ -19,6 +19,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
 
 // This is a Centralized Logging Filter class which will work in Java Quarkus projects
+// ContainerRequestFilter, ContainerResponseFilter is responsible for the incoming request and final outgoing response to the server.
+// ClientRequestFilter, ClientResponseFilter is responsible for all the external client api calls within the existing api calls.
 
 @Provider
 @Slf4j
